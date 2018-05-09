@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0px 0px;
+  list-style: none;
+  border: 0px;
+}
+ul,
+li {
+  height: 410px;
+  line-height: 410px;
+  display: block;
+}
+.connect {
+  width: 1190px;
+  height: 410px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  margin-top: 10px;
+}
+.pages {
+  display: block;
+  position: relative;
+  min-width: 2380px;
+  height: 410px;
+  overflow: hidden;
+}
+.page {
+  display: inline-block;
+  float: left;
+}
+.pager {
+  position: absolute;
+  height: 24px;
+  width: 100%;
+  bottom: 6%;
+  /*	background-color:red;*/
+  z-index: 2;
+  text-align: center;
+}
+.pager div {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 5px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 4px #333333;
+  cursor: pointer;
+}
+.pager .current {
+  background-color: #69aaec;
+}
+.btnprev,
+.btnnext {
+  top: 50%;
+  position: absolute;
+  z-index: 2;
+  width: 45px;
+  height: 45px;
+  margin-top: -23px;
+  cursor: pointer;
+}
+.btnprev {
+  left: 7px;
+  background-image: url(../images/left.png);
+}
+.btnnext {
+  right: 7px;
+  background-image: url(../images/right.png);
+}
+/*.item{
+	position:relative;
+}
+.item .item_img{
+	position:absolute;
+}
+.item .item_url{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:100;
+}*/
+button {
+  margin-left: 20px;
+  width: 100px;
+  height: 30px;
+  color: red;
+  padding: 2px 5px;
+}
